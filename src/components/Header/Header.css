@@ -1,0 +1,27 @@
+.logo-img img{
+    width: 200px;
+    height: 150px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin-left: 200px;
+}
+.manue{
+   padding-bottom: 20px;
+}
+.manue a{
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: rgb(18 108 161);
+
+}
+.manue a:hover{
+    color: rgb(227, 13, 13);
+    border-bottom:2px solid rgb(227, 13, 13) ;
+    transition: .2s;
+}

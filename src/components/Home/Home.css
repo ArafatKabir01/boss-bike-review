@@ -1,0 +1,17 @@
+
+
+.home-info-conteiner{
+    
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    width: 1300px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+    
+}
+.home-info h2{
+    font-size: 54px;
+    font-weight: 700;
+
+}
