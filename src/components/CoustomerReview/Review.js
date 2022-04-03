@@ -1,10 +1,11 @@
 import React from 'react';
+import './Review.css'
 
-const Review = () => {
+const Review = ({user}) => {
     return (
         <div>
-            <h2>Coustomer Review</h2>
-            
+            <p>{user.name}</p>
+
         </div>
     );
 };

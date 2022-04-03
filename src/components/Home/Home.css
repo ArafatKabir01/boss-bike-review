@@ -8,10 +8,52 @@
     justify-content: space-between;
     align-items: center;
     margin-left: 300px;
+    margin-bottom: 300px;
+    
     
 }
 .home-info h2{
     font-size: 54px;
     font-weight: 700;
 
+}
+.section-title{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(18 108 161);
+}
+.user-cart{
+    width: 350px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+.user-cart img{
+    width: 80px;
+    height: 80px;
+    
+}
+.user-carts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.viewAll-btn{
+        padding: 15px;
+        width: 300px;
+        background-color: rgb(18 108 161);
+        border: none;
+        margin-left: 42%;
+        color:#ffff;
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        
+      
+}
+.viewAll-btn:hover{
+    background-color: rgb(15, 43, 59);
+    transition: .2s;
 }
