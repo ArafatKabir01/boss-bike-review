@@ -1,4 +1,5 @@
 import React from 'react';
+import {useNavigate } from 'react-router-dom';
 import UserReview from '../../CoustomHooks/UserReview';
 import bikeImg from '../../images/homePageImg.png'
 
@@ -6,11 +7,15 @@ import './Home.css'
 
 const Home = () => {
     const [users , setUsers] = UserReview()
+    const navigate = useNavigate()
+    const allPlayerDetiels = () =>{
+        navigate('/reviews')
+    }
     return (
         <div>
             <div className='home-info-conteiner'>
                 <div className='home-info'>
-                    <h2 style={{color:'rgb(18 108 161'}}>THIS IS YOURE NEXT BIKE</h2>
+                    <h2 style={{color:'rgb(18 108 161'}}>THIS <span style={{color:'rgb(211, 82, 7)'}}>BOSS BIKE</span> IS YOURE NEXT BIKE</h2>
                     <h4>THIS BIKE NEVER DISSATISFACTION ANYONE!</h4>
                     <p>Victory MotorCycles Jackpot from the American motorcycle manufacturer, Victory Motorcycles, is a custom cruiser that turns heads with its looks and offers an incredible riding experience. In its street adventures, this bike is helped by the 106 cubic inch V-Twin engine along with the six speed overdrive transmission with helical cut gears. The company has already taste huge success in countries like Spain, France, U.K, etc. and now wants to try its luck in India. Design:</p>
                     <button className='learn-more-btn'>Learn More</button>
@@ -32,6 +37,8 @@ const Home = () => {
                            </div>
                            < hr / >
                            <div style={{padding:'10px' ,marginTop:'20px'}}>
+
+                               <p>Nationality : {user.country}</p>
                                <small>Ratings : {user.ratings}</small>
                             
                                 <p>{user.comment}</p>
@@ -41,7 +48,7 @@ const Home = () => {
                    }
                    
                 </div>
-                <button className='viewAll-btn'>SEE ALL</button>
+                <button onClick={allPlayerDetiels} className='viewAll-btn'>SEE ALL</button>
             </div> 
             
         </div>

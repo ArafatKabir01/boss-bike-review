@@ -5,7 +5,10 @@ import './Review.css'
 const Review = () => {
     const [users , setUsers] = UserReview()
     return (
-        <div className='all-user-carts'>
+    <div>
+        <h2 style={{textAlign : 'center', fontSize:'55px'}}>Coustomer Reviews</h2>
+         <div className='all-user-carts'>
+            
             {
                 users.map(user => 
                     <div key={user.id} className='user-cart'>
@@ -15,9 +18,9 @@ const Review = () => {
                         </div>
                     < hr / >
                     <div style={{padding:'10px'}}>
+                        <p>Nationality : {user.country}</p>
                         <small>Ratings : {user.ratings}</small>
-                     
-                         <p>{user.comment}</p>
+                        <p>{user.comment}</p>
                     </div>
                     
                     </div>
@@ -25,6 +28,9 @@ const Review = () => {
             
 
         </div>
+    </div>
+        
+       
     );
 };
 

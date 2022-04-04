@@ -26,8 +26,9 @@ const Dashboard = () => {
                 <Tooltip />
                 <Area type="monotone" dataKey="investment" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
                 <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
-                {/* <Area type="monotone" dataKey="sell" stroke="rgba(137, 43, 226, 0.274)" fillOpacity={1} fill="url(#colorPv)" /> */}
+
             </AreaChart>
+            <p style={{textAlign:'center'}}>Investment And Revenue</p>
             </div>
 <br />
            <div>
@@ -35,6 +36,7 @@ const Dashboard = () => {
                 <Pie data={Data} dataKey="sell" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
                 <Pie data={Data} dataKey="sell" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
             </PieChart>
+            <p style={{textAlign:'center'}}>selles</p>
            </div>
         </div>
     );

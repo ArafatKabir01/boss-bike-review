@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 import logo from '../../images/logo.png';
 import './Header.css'
 
@@ -8,14 +9,14 @@ const Header = () => {
         <div className='header'>
             {/* logo img */}
             <div className='logo-img'>
-                <Link to='/'><img src={logo}></img></Link>
+                <NavLink to='/'><img src={logo}></img></NavLink>
             </div>
-            <div className='manue'>
-                <Link to='/'>Home</Link>
-                <Link to='/Linkbout'>About</Link>
-                <Link to='/blog'>Blog</Link>
-                <Link to='/reviews'>Reviews</Link>
-                <Link to='/dashboard'>Dashboard</Link>
+            <div >
+                <NavLink className={({isActive})=>isActive? 'active-manue' : 'manue'} to='/'>Home</NavLink>
+                <NavLink className={({isActive})=>isActive? 'active-manue' : 'manue'}  to='/about'>About</NavLink>
+                <NavLink className={({isActive})=>isActive? 'active-manue' : 'manue'}  to='/blog'>Blog</NavLink>
+                <NavLink className={({isActive})=>isActive? 'active-manue' : 'manue'}  to='/reviews'>Reviews</NavLink>
+                <NavLink className={({isActive})=>isActive? 'active-manue' : 'manue'}  to='/dashboard'>Dashboard</NavLink>
             </div>
         </div>
     );

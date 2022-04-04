@@ -8,7 +8,6 @@ const UserReview = () => {
         .then(res => res.json())
         .then(data => setUsers(data))
     },[])
-    console.log(users)
     return [users , setUsers];
 };
 

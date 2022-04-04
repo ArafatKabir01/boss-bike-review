@@ -6,13 +6,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    margin-right: 200px;
     margin-left: 200px;
 }
 .manue{
    padding-bottom: 20px;
 }
-.manue a{
+.manue{
     font-size: 20px;
     margin-left: 20px;
     text-decoration: none;
@@ -20,8 +20,16 @@
     color: rgb(18 108 161);
 
 }
-.manue a:hover{
+.manue:hover{
     color: rgb(227, 13, 13);
     border-bottom:2px solid rgb(227, 13, 13) ;
     transition: .2s;
+}
+.active-manue{
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: rgb(227, 13, 13);
+    border-bottom:2px solid rgb(227, 13, 13)
 }
