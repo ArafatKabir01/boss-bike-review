@@ -25,8 +25,8 @@ const Home = () => {
                 <h4 style={{textAlign : 'center', color:'green',fontSize:'20px'}}>Total Review: {users.length} </h4>
                 <div className='user-carts'>
                    {
-                       users.slice(0,3).map(user => <div className='user-cart'>
-                           <div style={{display:'flex', alignItems: 'center',padding:'10px'}}>
+                       users.slice(0,3).map(user => <div key={user.id} className='user-cart'>
+                           <div  style={{display:'flex', alignItems: 'center',padding:'10px'}}>
                                 <img src={user.img}></img>
                                 <h2 style={{marginLeft:'5px'}}> {user.name}</h2>
                            </div>
