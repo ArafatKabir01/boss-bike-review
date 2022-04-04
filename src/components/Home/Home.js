@@ -1,20 +1,19 @@
 import React from 'react';
 import UserReview from '../../CoustomHooks/UserReview';
 import bikeImg from '../../images/homePageImg.png'
-import Review from '../CoustomerReview/Review';
+
 import './Home.css'
 
 const Home = () => {
     const [users , setUsers] = UserReview()
-    console.log(users)
     return (
         <div>
             <div className='home-info-conteiner'>
                 <div className='home-info'>
-                    <h2>THIS IS YOURE NEXT BIKE</h2>
+                    <h2 style={{color:'rgb(18 108 161'}}>THIS IS YOURE NEXT BIKE</h2>
                     <h4>THIS BIKE NEVER DISSATISFACTION ANYONE!</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur non officiis delectus repellat, asperiores fugit exercitationem dolorem molestias. Inventore laboriosam, perferendis totam enim tempore nulla fugiat quas magni impedit? Totam.</p>
-                    <button>Learn More</button>
+                    <p>Victory MotorCycles Jackpot from the American motorcycle manufacturer, Victory Motorcycles, is a custom cruiser that turns heads with its looks and offers an incredible riding experience. In its street adventures, this bike is helped by the 106 cubic inch V-Twin engine along with the six speed overdrive transmission with helical cut gears. The company has already taste huge success in countries like Spain, France, U.K, etc. and now wants to try its luck in India. Design:</p>
+                    <button className='learn-more-btn'>Learn More</button>
                 </div>
                 <div className='cover-img'>
                     <img src={bikeImg}></img>
@@ -32,7 +31,7 @@ const Home = () => {
                                 <h2 style={{marginLeft:'5px'}}> {user.name}</h2>
                            </div>
                            < hr / >
-                           <div style={{padding:'10px'}}>
+                           <div style={{padding:'10px' ,marginTop:'20px'}}>
                                <small>Ratings : {user.ratings}</small>
                             
                                 <p>{user.comment}</p>
@@ -43,7 +42,8 @@ const Home = () => {
                    
                 </div>
                 <button className='viewAll-btn'>SEE ALL</button>
-            </div>  
+            </div> 
+            
         </div>
     );
 };

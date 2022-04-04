@@ -10,64 +10,49 @@
   {
     "id": "124e13b9-2d54-4b2f-a74d-fdgserg",
     "name": "Abrahum Linkon",
+    "country":"Canada",
     "ratings": 4.5,
-    "comment":"This bike is Amazing.I use this bike after 6 month.This bike looking very nice.Everything is okey but price is very high",
+    "comment":"Best features are it's capabilities as a bobber and as a toured or even a stylish commuter. The reliability of its engine if serviced regularly is on a par in my mind with Honda and Yamaha. I have recommended these bikes to many a friend.",
     "img": "/images/userImg.png"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-dsarfbdf",
     "name": "The Rock",
+    "country":"Austrelia",
     "ratings": 3,
-    "comment":"This bike is Amazing.I use this bike after 6 month.This bike looking very nice.Everything is okey but price is very high",
+    "comment":"I love the smooth acceleration of the massive V twin 106 cubic inch engine with the 6 speed gear box. My only dislike is if you put the hammer down a little too much the gear change isn't a smooth and quite clunky.",
     "img": "/images/userImg.png"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-faerrger",
-    "name": "Pushpa",
+    "name": " Phil West",
+    "country":"Japan",
     "ratings": 5,
-    "comment":"This bike is Amazing.I use this bike after 6 month.This bike looking very nice.Everything is okey but price is very high",
+    "comment":"The Judge is a surprisingly engaging and fun bike to ride. It's not a sedate cruiser, it has attitude and can surprise plenty of people on country roads. Although it's a heavy bike the thumping great engine makes light work of moving all that weight in a swift fashion.",
     "img": "/images/userImg.png"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-dzgfwrstwe",
-    "name": "RRR",
+    "name": " MCN Staff",
+    "country":"Hunululu",
     "ratings": 4.5,
-    "comment":"This bike is Amazing.I use this bike after 6 month.This bike looking very nice.Everything is okey but price is very high",
+    "comment":" I paid $8000 with my trade and I don't believe I got a great deal but I believe I got a great bike. I picked it up April 14, 2016 and today December 2018 I have 17000 miles. I'm 72 and feel like 18 again.",
     "img": "/images/userImg.png"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-eswrzdsf",
-    "name": "Spider Man:No Way Home",
+    "name": "johnsmail",
+    "country":"India",
     "ratings": 4,
-    "comment":"This bike is Amazing.I use this bike after 6 month.This bike looking very nice.Everything is okey but price is very high",
+    "comment":"Had bike for a year, never worried about single front disc, brakes fine. Does tend to ground cornering too fast but you get used to that. Previously had the Vegas 8 ball and prior to that a string of Kawasaki cruisers. Love the bike.",
     "img": "/images/userImg.png"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-aw3er4q3",
-    "name": "The Cursed",
+    "name": "Jon Abrahum",
+    "country":"Pakistan",
     "ratings": 4.5,
-    "comment":"This bike is Amazing.I use this bike after 6 month.This bike looking very nice.Everything is okey but price is very high",
-    "img": "/images/userImg.png"
-  },
-  {
-    "id": "124e13b9-2d54-4b2f-a74d-w3r423edr",
-    "name": "The Fate of Swordsman",
-    "ratings": 3.5,
-    "comment":"This bike is Amazing.I use this bike after 6 month.This bike looking very nice.Everything is okey but price is very high",
-    "img": "/images/userImg.png"
-  },
-  {
-    "id": "124e13b9-2d54-4b2f-a74d-wa53re",
-    "name": "Theal",
-    "ratings": 3,
-    "comment":"This bike is Amazing.I use this bike after 6 month.This bike looking very nice.Everything is okey but price is very high",
-    "img": "/images/userImg.png"
-  },
-  {
-    "id": "124e13b9-2d54-4b2f-a74d-w34swar3ew",
-    "name": "Yutha Satham",
-    "ratings": 5,
-    "comment":"This bike is Amazing.I use this bike after 6 month.This bike looking very nice.Everything is okey but price is very high",
+    "comment":"Regularly serviced by a Indian, Victory mechanic with an oil change twice yearly. With using premium 98 obtain with Iridium spark plugs I safe due to the increased mileage.",
     "img": "/images/userImg.png"
   }
 ]
