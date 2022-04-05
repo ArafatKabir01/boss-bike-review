@@ -6,7 +6,7 @@ const Review = () => {
     const [users , setUsers] = UserReview()
     return (
     <div>
-        <h2 style={{textAlign : 'center', fontSize:'55px'}}>Coustomer Reviews</h2>
+        <h2 style={{textAlign : 'center', fontSize:'55px'}}>Customer Reviews</h2>
          <div className='all-user-carts'>
             
             {
